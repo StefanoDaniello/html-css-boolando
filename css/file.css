@@ -37,8 +37,19 @@ body{
 /* header  */
 
 header{
+    background-color: var(--color-header-bg); 
+    margin-top: 50px;
+}
+
+.navigaton{
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: var(--color-header-bg);
+    width: 100%;
     padding: 10px;
+    box-shadow: 10px 10px 50px grey;
+    z-index: 2;
 }
 
 header ul li {
