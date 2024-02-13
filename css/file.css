@@ -72,13 +72,15 @@ img{
 
 .container-all-img{
     max-width:1200px ;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px 30px;
+    gap: 10px;
+
 }
 
 .text-container{
     width: 350px;
-    width:calc(100% / 3) ;    
+    width:calc(100% / 3 - 10px) ;    
 }
 
 .img-container{
