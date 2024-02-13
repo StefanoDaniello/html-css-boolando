@@ -56,6 +56,23 @@ img{
     width: 100%;
 }
 
+.calc{
+    width: calc(100% / 3);
+}
+
+
+.secondary-img{
+    display: none;
+}
+
+.img-container:hover .first-img{
+    display: none;
+}
+
+.img-container:hover .secondary-img{
+    display: block;
+}
+
 
 /* footer  */
 footer{
@@ -103,7 +120,12 @@ footer h6{
     width: 350px;
     margin: 0 auto;
     position: relative;
-    
+    cursor: pointer;
+}
+
+.description-img{
+    width: 350px;
+    margin: 0 auto;
 }
 
 .container-text-footer{
@@ -172,7 +194,7 @@ footer h6{
 }
 
 
-/* margin utility */
+/* margin/padding utility */
 
 
 .margin-30{
@@ -190,9 +212,5 @@ footer h6{
 
 .padding-top{
     padding-top: 10px ;
-}
-
-.calc{
-    width: calc(100% / 3);
 }
 
