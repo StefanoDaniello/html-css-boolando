@@ -57,6 +57,22 @@ img{
 }
 
 
+/* footer  */
+footer{
+    background-color: var(--color-big-text-footer-bg);
+}
+
+footer h3{
+    color: var(--color-text-logo-color);
+}
+
+footer h6{
+    color: var(--color-text-logo-color)
+}
+
+.white{
+    color: var(--color-text-logo-color);
+}
 
 /* container  */
 
@@ -88,6 +104,11 @@ img{
     margin: 0 auto;
     position: relative;
     
+}
+
+.container-text-footer{
+    max-width: 1100px;
+    margin-left: 30px;    
 }
 
 /* badge  */
@@ -153,6 +174,23 @@ img{
 
 /* margin utility */
 
+
+.margin-30{
+    margin-left: 30px;
+   margin-right: 50px;
+}
+
+.footer-top{
+    padding-top: 10px;
+}
+
+.footer-bottom{
+   padding-bottom: 10px;
+}
+
+.padding-top{
+    padding-top: 10px ;
+}
 
 .calc{
     width: calc(100% / 3);
